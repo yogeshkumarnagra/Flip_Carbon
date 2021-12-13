@@ -1,0 +1,71 @@
+body {
+    background-color: transparent;
+    font-family: Arial;
+    background-image: url("https://media.istockphoto.com/vectors/blue-abstract-background-vector-id1007179744?k=20&m=1007179744&s=612x612&w=0&h=H1wHleTA786M7j0oE0iZcicL_UCOq3XleRibgGtbMqY=");
+}
+
+.navbar {
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar h1 {
+    align-items: center;
+}
+
+p {
+    margin: 10px;
+    /* min-width: 200px; */
+    flex-wrap: nowrap;
+    text-align: center;
+    display: inline;
+    flex-direction: column;
+}
+
+#links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#dash_btn {
+    color: white;
+    padding: 1%;
+    border-radius: 5px;
+    background-color: rgb(55, 56, 55);
+}
+
+.mainBody {
+    color: wheat;
+    text-align: center;
+    margin: 10px 10%;
+    width: 70%;
+    padding: 5%;
+    height: 350px;
+}
+
+#content {
+    font-weight: bolder;
+    height: 350px;
+    padding: 5px;
+}
+
+span {
+    color: rgb(175, 210, 238);
+}
+
+#sub_Content {
+    font-size: x-small;
+    font-weight: lighter;
+}
+
+#try_this_app {
+    color: white;
+    margin-top: 5%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(57, 68, 235);
+}
